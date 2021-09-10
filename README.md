@@ -1,1 +1,1 @@
-##GPA calculator App created with Next.js
+#GPA calculator App created with Next.js
