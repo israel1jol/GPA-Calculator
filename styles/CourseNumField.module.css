@@ -1,0 +1,36 @@
+.form_field{
+    display: flex;
+    align-items: center;
+    height:30vh;
+    justify-content: center;
+
+}
+
+.form_label{
+    font-size: 23px;
+}
+
+.form_input{
+    width:50px;
+}
+
+.Heading{
+    box-shadow: 2px 3px 5px black;
+    background-color: rgb(52, 39, 124);
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+    border-radius:5px;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.btn_green{
+    padding: 9px;
+    cursor: pointer;
+    background-color:rgb(27, 21, 65);
+    border-radius:5px;
+    color:white;
+    outline: none;
+    border:none;
+}

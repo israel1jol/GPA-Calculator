@@ -1,0 +1,12 @@
+.main{
+    padding:30px;
+    display:flex;
+    align-items: flex-start;
+}
+
+
+@media(max-width:800px){
+    .main{
+        display:block;
+    }
+}

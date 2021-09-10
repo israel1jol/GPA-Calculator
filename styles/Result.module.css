@@ -1,0 +1,33 @@
+.Heading{
+    box-shadow: 2px 1px 5px black;
+    background-color: rgb(66, 53, 139);
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+    border-radius:5px;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.lead{
+    color:rgb(66, 53, 139);
+    text-align: center;
+    font-size: 24px;   
+}
+
+.leads{
+    word-spacing: 2rem;
+    color: rgb(66, 53, 139);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    cursor: pointer;
+    background:rgb(66, 53, 139);
+    padding: 10px;
+    border: rgb(37, 30, 75);
+    border-radius: 4px;
+    margin-left: 20px;
+    color: whitesmoke;
+}

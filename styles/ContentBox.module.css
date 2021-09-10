@@ -1,0 +1,13 @@
+.box{
+    background: #ececeb;
+    min-height:35vh;
+    min-width:40%;
+    border-radius: 5px;
+    margin:0 70px;
+}
+
+@media(max-width:800px){
+    .box{
+        margin:0 5px;
+    }
+}

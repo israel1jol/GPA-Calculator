@@ -1,0 +1,71 @@
+.Heading{
+    box-shadow: 2px 1px 5px black;
+    background-color: rgb(66, 53, 139);
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+    border-radius:5px;
+    color: whitesmoke;
+    overflow: hidden;
+
+}
+
+.btn_green{
+    cursor: pointer;
+    padding: 9px;
+    background-color: transparent;
+    border-radius:20px;
+    color:rgb(66, 53, 139);
+    width:70%;
+    margin: 20px auto;
+    display: flex;
+    justify-items: center;
+    padding-right: 30px;
+    outline: none;
+    border:none;
+    border:2px dashed rgb(66, 53, 139);
+    transition:all ease-in 0.3s;
+}
+.btn_green:hover{
+    color: whitesmoke;
+    background-color: rgb(66, 53, 139);
+}
+
+.form_div{
+    padding:20px 50px;
+    width:100%;
+    line-height: 2.3rem;
+
+}
+
+.NameBox{
+    width:100%;
+    outline: none;
+    height:5vh;
+    color:rgb(66, 53, 139) ;
+}
+
+.UnitsBox{
+    width:48%;
+    outline: none;
+    height:5vh;
+    color:rgb(66, 53, 139) ;
+    margin-right: 2%;
+}
+
+.SelectBox{
+    width:48%;
+    outline: none;
+    height:5vh;
+    margin-left:2%;
+    color:rgb(66, 53, 139) ;
+}
+
+
+.err_box{
+    background-color: rgba(248, 88, 60, 0.247);
+    color:rgb(204, 86, 86);
+    width:50%;
+    padding:5px;
+    margin: 10px;
+}

@@ -1,0 +1,21 @@
+.jumbotron {
+    padding-right:150px;
+    margin-left:30px;
+    margin-top: 10px;
+    width:60%;
+
+}
+
+.jumbotron .lead{
+    font-size: 20px;
+}
+.calculator_svg{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:800px){
+    .jumbotron{margin:20px;padding:10px 2px;width:100%;}
+    .jumbotron .lead{
+        font-size: 14px;
+    }
+}
