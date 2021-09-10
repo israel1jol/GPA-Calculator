@@ -1,8 +1,9 @@
 import style from '../styles/Result.module.css'
 import { useEffect, useState } from "react"
+import Link from 'next/link'
 
 
-const Result = ({courses}) => {
+const Result = ({courses, SetCourses}) => {
     const [gpa, setGpa] = useState(0)
     useEffect(() => {
         let units = courses.map(course => course.unit)
@@ -41,13 +42,15 @@ const Result = ({courses}) => {
     const edit = (res) => {
         setGpa(res)
     }
+
+    const change = () => {
+        SetCourses([])
+    }
     return (
         <>
             <div className={style.Heading}>Cummulated Grade Point</div>
             <p className={style.lead}>Your CGPA is {gpa}</p>
-            <form action="" method="post">
-                <input type="submit" value="Go Back" className={style.btn}/>
-            </form>
+            <button className={style.btn} onClick={change}>Go Back</button>
             {courses.map(course => (
                 <>
                     <div className={style.leads}>

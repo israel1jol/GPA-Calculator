@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Result from './Result';
 import Head from 'next/head'
 
-const Course = ({courses}) => {
+const Course = ({courses, SetCourses}) => {
     const [courseIndex, setCourseIndex] = useState(0)
     const [courseObj, setCourseObj] = useState(courses)
     const [err, setErr] = useState([''])
@@ -57,7 +57,7 @@ const Course = ({courses}) => {
                             <button className={style.btn_green} onClick={edit}>{courseIndex < courseObj.length-1 ? 'Add Course' : 'Calculate GPA'}</button>
                     </div> 
                 </>
-            </div> : <Result courses={courseObj} />}
+            </div> : <Result courses={courseObj} SetCourses={SetCourses}/>}
         </div> 
     )
 }

@@ -28,7 +28,7 @@ const CourseNumField = () => {
             </div>
             <button className={styles.btn_green} onClick={change}>Go</button>
         </div></div></div>
-        : <Course courses={courses}/>}
+        : <Course courses={courses} SetCourses={SetCourses}/>}
     </>
   )
 }
