@@ -7,7 +7,7 @@ const Jumbotron = () => {
         <div className={style.jumbotron}>
             <div className={style.calculator_svg}><Image src={calculator} width={1000} height={900} alt="calculator"/></div>
             <div className={style.content}>
-                <p className={style.lead}>Calculate your college, high school and cummulatice GPA, check your grade and understand how the GPA scale works.</p>
+                <p className={style.lead}>Calculate your college, high school and cummulative GPA, check your grade and understand how the GPA scale works.</p>
             </div>
         </div>
     )
